@@ -25,7 +25,7 @@
     </feature>
 	<feature uid="utility-Audit-Trail-CXQM-18121" description="Utility feature toggle for audit trails" enable="true">
         <flipstrategy class="com.nice.saas.wfo.shared.featureToggle.TenantBasedFlippingStrategy">
-            <param name="off_for" value="*"/>
+            <param name="off_for" value="perm_SO32Load_1000025,perm_SO32Load_1000026"/>
             <param name="on_for"  value="-"/>
         </flipstrategy>
         <documentation>
