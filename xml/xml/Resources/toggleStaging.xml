@@ -2855,7 +2855,7 @@
     </feature>
     <feature description="Dashboard MS service RDS separation usage" enable="true" uid="utility-CS-use-service-RDS-CXCOM-11933">
         <flipstrategy class="com.nice.saas.wfo.shared.featureToggle.TenantBasedFlippingStrategy">
-            <param name="off_for" value="-" />
+            <param name="off_for" value="perm_SO32Load_1000025" />
             <param name="on_for" value="*" />
         </flipstrategy>
         <documentation>
